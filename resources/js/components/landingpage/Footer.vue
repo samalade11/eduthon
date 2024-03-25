@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#003F92] px-4 md:px-8 lg:px-24 pt-12 pb-32">
+    <div class="bg-[#003F92] px-4 md:px-8 lg:px-24 pt-12 pb-36">
         <div class="grid grid-cols-2 gap-12 lg:grid-cols-4">
             <div>
                 <img src="../../../../public/assets/footerlogo.png" alt="">
