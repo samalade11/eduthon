@@ -304,6 +304,44 @@
                 </div>
             </div>
         </div>
+
+        <div class="mx-4 md:mx-8 lg:mx-24 mt-24">
+            <div class="flex justify-center ">
+                <div class="h-fit w-full">
+                    <h4 class="text-[#3A3A3A] text-[18px] md:text-[32px] font-bold text-center uppercase">Technology review</h4>
+                    <div class="flex place-content-center mt-1">
+                        <p class="text-[#3A3A3A] text-[11px] md:text-[18px] lg:w-[554px] text-center leading-4 md:leading-5">At Delwathon, we prepare for your success by providing you
+                        the best IT solutions.</p>
+                    </div>
+                </div>
+                <div class=" relative w-[50%] md:w-[30%] lg:w-[20%] flex place-content-end ">
+                    <button class="text-white bg-[#00A859] text-[10px] md:text-[18px] font-semibold px-6 py-2 rounded-[30px] h-fit absolute bottom-0">Watch Demo</button>
+                </div>
+            </div>
+            <div class="mt-6 md:mt-8 lg:mt-12">
+                <img src="../../../../public/assets/techvideo.png" alt="">
+            </div>
+
+            <div class="mt-6 md:mt-8 lg:mt-24 grid grid-cols-5 md:grid-cols-5 lg:grid-cols-5 gap-8">
+                <img src="../../../../public/assets/techimg1.png" alt="" class="h-fit w-fit my-auto">
+                <img src="../../../../public/assets/techimg2.png" alt="" class="h-fit w-fit my-auto">
+                <img src="../../../../public/assets/techimg3.png" alt="" class="h-fit w-fit my-auto">
+                <img src="../../../../public/assets/techimg4.png" alt="" class="h-fit w-fit my-auto">
+                <img src="../../../../public/assets/techimg5.png" alt="" class="h-fit w-fit my-auto">
+            </div>
+        </div>
+
+        <!-- slider -->
+        <div class="mx-4 md:mx-8 lg:mx-24 mt-24">
+            <div class="h-fit w-full">
+                <h4 class="text-[#3A3A3A] text-[18px] md:text-[32px] font-bold text-center uppercase">OUR TESTIMONIAL</h4>
+                <div class="flex place-content-center mt-1">
+                    <p class="text-[#3A3A3A] text-[11px] md:text-[18px] text-center leading-4 md:leading-5">What Our Customers Are Saying About Delwathon</p>
+                </div>
+            </div>
+
+            <!-- sliders here -->
+        </div>
     </div>
 </template>
 <script setup>
