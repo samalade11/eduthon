@@ -17,6 +17,17 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
+Route::get('/our-solution', function () {
+    return view('oursolution');
+})->name('oursolution');
+
+Route::get('/demo', function () {
+    return view('demo');
+})->name('demo');
+
+Route::get('/price', function () {
+    return view('price');
+})->name('price');
 
 
 

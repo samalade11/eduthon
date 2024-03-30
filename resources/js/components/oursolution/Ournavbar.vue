@@ -29,10 +29,10 @@
             <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="navbar-cta" >
             <ul class="flex flex-col font-medium p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-300 lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0  " :class="tofixed ? 'bg-white lg:bg-transparent' : 'lg:bg-white' ">
                 <li>
-                    <a href="/" class="block py-2 px-3 my-1 lg:my-0 lg:p-0 text-white bg-[#00A859] text-[16px] md:text-[18px] font-medium rounded lg:bg-transparent lg:text-[#00A859] " aria-current="page">Why Delwathon</a>
+                    <a href="/" class="block py-2 px-3 my-1 lg:my-0 lg:p-0 text-[#3A3A3A]  text-[16px] md:text-[18px] font-medium rounded hover:bg-gray-200 lg:hover:bg-transparent lg:hover:text-[#00A859] ">Why Delwathon</a>
                 </li>
                 <li>
-                    <a href="/our-solution" class="block py-2 px-3 my-1 lg:my-0 lg:p-0 text-[#3A3A3A]  text-[16px] md:text-[18px] font-medium rounded hover:bg-gray-200 lg:hover:bg-transparent lg:hover:text-[#00A859] ">Our Solutions</a>
+                    <a href="/our-solution" class="block py-2 px-3 my-1 lg:my-0 lg:p-0 text-white bg-[#00A859] text-[16px] md:text-[18px] font-medium rounded lg:bg-transparent lg:text-[#00A859] " aria-current="page">Our Solutions</a>
                 </li>
                 <li>
                     <a href="/demo" class="block py-2 px-3 my-1 lg:my-0 lg:p-0 text-black text-[16px] md:text-[18px] font-medium rounded hover:bg-gray-200 lg:hover:bg-transparent lg:hover:text-[#00A859] ">Request a Demo</a>
