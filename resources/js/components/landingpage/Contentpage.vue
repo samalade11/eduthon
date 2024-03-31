@@ -341,9 +341,215 @@
             </div>
 
             <!-- sliders here -->
+            <div class=" px-2 relative">
+                <div class=" cursor-pointer h-fit w-fit absolute left-0 top-56 z-40" @click="scrollLeft">
+                    <i class='bx bx-chevron-left  h-fit w-fit text-[25px] p-3 rounded-full shadow-md shadow-[#003399]' :class="activescroll == 0 ? 'bg-[#00A859]' : 'bg-[#E5E7EB]'  "></i>
+                </div>
+                <!-- 00A859 -->
+                <div class=" cursor-pointer h-fit w-fit absolute right-0 top-56 z-40" @click="scrollRight">
+                    <i class='bx bxs-chevron-right  h-fit w-fit text-[25px] p-3 rounded-full shadow-md shadow-[#003399]' :class="activescroll == 1 ? 'bg-[#00A859]' : 'bg-[#E5E7EB]'  "></i>
+                </div>
+                <div class="mt-12 z-10  flex gap-2 overflow-x-auto custom-scrollbar relative" ref="scrollContainer">
+                    
+                    <div class=" flex-shrink-0 w-[300px] md:w-[750px] h-fit px-6 py-4 md:py-8">
+                        <div class="flex place-content-center">
+                            <img src="../../../../public/assets/slideimg1.png" alt="">
+                        </div>
+                        <p class="text-[#3A3A3A] text-[16px] mt-2 text-center">Samson Vicken</p>
+                        <p class="text-[#3A3A3A] font-semibold text-[18px] text-center">Director, Bitmoney</p>
+                        <div class="flex gap-2 place-content-center">
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                        </div>
+                        <p class="text-[#3A3A3A] text-[11px] md:text-[20px] mt-6">Teams appreciate Delwathon IT Solutions not just 
+                            for the software they deliver but for the 
+                            collaborative partnerships they foster. Delwathon 
+                            doesn't impose solutions; they work hand-in-hand
+                            with their clients to understand their unique 
+                            requirements, pain points, and objectives. This 
+                            collaborative approach ensures that every software
+                            or application they create is a perfect fit. 
+                            Delwathon's dedication to listening, understanding,
+                            and evolving alongside their clients creates a bond
+                            of trust and reliability. Teams value this partnership
+                            as it not only results in highly functional software 
+                            but also in a lasting relationship with a partner who 
+                            truly cares about their success.
+                            </p>
+                    </div>
+
+                    <div class=" flex-shrink-0  w-[300px] md:w-[750px] h-fit px-6 py-4 md:py-8">
+                        <div class="flex place-content-center">
+                            <img src="../../../../public/assets/slideimg1.png" alt="">
+                        </div>
+                        <p class="text-[#3A3A3A] text-[16px] mt-2 text-center">Samson Vicken</p>
+                        <p class="text-[#3A3A3A] font-semibold text-[18px] text-center">Director, Bitmoney</p>
+                        <div class="flex gap-2 place-content-center">
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                        </div>
+                        <p class="text-[#3A3A3A] text-[11px] md:text-[20px] mt-6">Teams appreciate Delwathon IT Solutions not just 
+                            for the software they deliver but for the 
+                            collaborative partnerships they foster. Delwathon 
+                            doesn't impose solutions; they work hand-in-hand
+                            with their clients to understand their unique 
+                            requirements, pain points, and objectives. This 
+                            collaborative approach ensures that every software
+                            or application they create is a perfect fit. 
+                            Delwathon's dedication to listening, understanding,
+                            and evolving alongside their clients creates a bond
+                            of trust and reliability. Teams value this partnership
+                            as it not only results in highly functional software 
+                            but also in a lasting relationship with a partner who 
+                            truly cares about their success.
+                            </p>
+                    </div>
+
+                    <div class=" flex-shrink-0  w-[300px] md:w-[750px] h-fit px-6 py-4 md:py-8">
+                        <div class="flex place-content-center">
+                            <img src="../../../../public/assets/slideimg1.png" alt="">
+                        </div>
+                        <p class="text-[#3A3A3A] text-[16px] mt-2 text-center">Samson Vicken</p>
+                        <p class="text-[#3A3A3A] font-semibold text-[18px] text-center">Director, Bitmoney</p>
+                        <div class="flex gap-2 place-content-center">
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                        </div>
+                        <p class="text-[#3A3A3A] text-[11px] md:text-[20px] mt-6">Teams appreciate Delwathon IT Solutions not just 
+                            for the software they deliver but for the 
+                            collaborative partnerships they foster. Delwathon 
+                            doesn't impose solutions; they work hand-in-hand
+                            with their clients to understand their unique 
+                            requirements, pain points, and objectives. This 
+                            collaborative approach ensures that every software
+                            or application they create is a perfect fit. 
+                            Delwathon's dedication to listening, understanding,
+                            and evolving alongside their clients creates a bond
+                            of trust and reliability. Teams value this partnership
+                            as it not only results in highly functional software 
+                            but also in a lasting relationship with a partner who 
+                            truly cares about their success.
+                            </p>
+                    </div>
+
+                    <div class=" flex-shrink-0  w-[300px] md:w-[750px] h-fit px-6 py-4 md:py-8 ">
+                        <div class="flex place-content-center">
+                            <img src="../../../../public/assets/slideimg1.png" alt="">
+                        </div>
+                        <p class="text-[#3A3A3A] text-[16px] mt-2 text-center">Samson Vicken</p>
+                        <p class="text-[#3A3A3A] font-semibold text-[18px] text-center">Director, Bitmoney</p>
+                        <div class="flex gap-2 place-content-center">
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                            <i class='bx bxs-star text-[#F39C12] text-[18px] font-medium' ></i>
+                        </div>
+                        <p class="text-[#3A3A3A] text-[11px] md:text-[20px] mt-6">Teams appreciate Delwathon IT Solutions not just 
+                            for the software they deliver but for the 
+                            collaborative partnerships they foster. Delwathon 
+                            doesn't impose solutions; they work hand-in-hand
+                            with their clients to understand their unique 
+                            requirements, pain points, and objectives. This 
+                            collaborative approach ensures that every software
+                            or application they create is a perfect fit. 
+                            Delwathon's dedication to listening, understanding,
+                            and evolving alongside their clients creates a bond
+                            of trust and reliability. Teams value this partnership
+                            as it not only results in highly functional software 
+                            but also in a lasting relationship with a partner who 
+                            truly cares about their success.
+                            </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 <script setup>
+    import { ref } from "vue";
+
+
+    const scrollContainer = ref(null);
+    const activescroll = ref(1)
+
+    // const scrollLeft = () => {
+    //     if (scrollContainer.value) {
+    //         scrollContainer.value.scrollLeft -= 300; // Adjust the scroll amount as needed
+    //     }
+    // };
+
+    // const scrollRight = () => {
+    //     if (scrollContainer.value) {
+    //         scrollContainer.value.scrollLeft += 300; // Adjust the scroll amount as needed
+    //     }
+    // };
+
+
+
+
+
+
+
+
+
+    const scrollLeft = () => {
+        activescroll.value = 0
+        if (scrollContainer.value) {
+            smoothScroll(scrollContainer.value, 'left', -330, 10); // Adjust the scroll amount and duration as needed
+        }
+    };
+
+    // Function to smoothly scroll right
+    const scrollRight = () => {
+        activescroll.value = 1
+        if (scrollContainer.value) {
+            smoothScroll(scrollContainer.value, 'left', 330, 10); // Adjust the scroll amount and duration as needed
+        }
+    };
+
+    // Function for smooth scrolling animation
+    const smoothScroll = (element, direction, distance, duration) => {
+    const start = element.scrollLeft;
+    const startTime = performance.now();
+
+    const animateScroll = (timestamp) => {
+        const elapsedTime = timestamp - startTime;
+        const progress = Math.min(elapsedTime / duration, 1);
+        const easeInOutCubic = (t) => t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1;
+        const delta = easeInOutCubic(progress) * distance;
+
+        if (direction === 'left') {
+        element.scrollLeft = start + delta;
+        } else {
+        element.scrollLeft = start - delta;
+        }
+
+        if (elapsedTime < duration) {
+        requestAnimationFrame(animateScroll);
+        }
+    };
+
+    requestAnimationFrame(animateScroll);
+    };
 
 </script>
+<style scoped>
+    .custom-scrollbar{
+        scroll-behavior: smooth;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+
+    
+</style>

@@ -29,5 +29,9 @@ Route::get('/price', function () {
     return view('price');
 })->name('price');
 
+Route::get('/contactus', function () {
+    return view('contact');
+})->name('contactus');
+
 
 

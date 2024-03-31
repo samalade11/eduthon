@@ -2,6 +2,6 @@
 @section('content')
 @vite('resources/js/app.js')
 <div id="app">
-    <oursolution />
+    <contactus />
 </div>
 @endsection
