@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="mx-4 md:mx-8 lg:mx-24 grid grid-cols-1 lg:grid-cols-2 mt-24 md:mt-36 gap-8 lg:gap-24">
-            <div class="flex place-content-center lg:place-content-start">
-                <img src="../../../../public/assets/lpimg1.png" alt="" class="h-fit w-fit">
+        <div class=" px-4 md:px-8 lg:px-24 py-12 grid grid-cols-1 lg:grid-cols-2 mt-24 md:mt-36 gap-8 lg:gap-24">
+            <div class="flex place-content-center lg:place-content-start h-git my-auto">
+                <img src="../../../../public/assets/lpimg1.png" alt="" class="h-[450px] md:h-[600px] lg:h-[650px] w-fit">
             </div>
             <div class="flex">
                 <div class="h-fit my-auto">
@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <div class="mx-4 md:mx-8 lg:mx-24 grid grid-cols-1 lg:grid-cols-2 mt-24 gap-8 lg:gap-24">
+        <div class="px-4 md:px-8 lg:px-24 py-12 grid grid-cols-1 lg:grid-cols-2 mt-24 gap-8 lg:gap-24">
             <div class="h-fit my-auto">
                 <h4 class="text-[#3A3A3A] text-[20px] md:text-[30px] font-bold mb-4">Why You Should Choose Delwathon?</h4>
 
@@ -44,7 +44,7 @@
                     <img src="../../../../public/assets/innico.png" alt="" class="h-fit my-auto">
                     <div class="h-fit my-auto">
                         <p class="text-[14px] md:text-[16px] text-[#3A3A3A] font-bold">Innovation and Cutting-edge Technology </p>
-                        <p class="text-[10px] md:text-[12px] text-[#3A3A3A] lg:w-[550px] leading-4 mt-1">Delwathon provides a diverse portfolio of comprehensive software solutions tailored to specific industries. Whether it's Eduthon for schools or Resthon for hotel management, Delwathon's solutions are designed to address the unique challenges and requirements of each sector.</p>
+                        <p class="text-[10px] md:text-[12px] text-[#3A3A3A] lg:w-[550px] leading-4 mt-1">Delwathon embraces the latest advancements in technology to develop innovative software solutions. We leverage state-of-the-art tools, frameworks, and development methodologies to ensure our products are at the forefront of the industry, delivering efficiency, accuracy, and seamless integration.</p>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@
                     <img src="../../../../public/assets/useico.png" alt="" class="h-fit my-auto">
                     <div class="h-fit my-auto">
                         <p class="text-[14px] md:text-[16px] text-[#3A3A3A] font-bold">User-Friendly Interface</p>
-                        <p class="text-[10px] md:text-[12px] text-[#3A3A3A] lg:w-[550px] leading-4 mt-1">Delwathon provides a diverse portfolio of comprehensive software solutions tailored to specific industries. Whether it's Eduthon for schools or Resthon for hotel management, Delwathon's solutions are designed to address the unique challenges and requirements of each sector.</p>
+                        <p class="text-[10px] md:text-[12px] text-[#3A3A3A] lg:w-[550px] leading-4 mt-1">Delwathon understands the importance of user experience. Our software solutions feature intuitive interfaces that are easy to navigate, allowing users to quickly adopt and leverage the full capabilities of the systems. This focus on usability ensures a smooth and efficient user experience.</p>
                     </div>
                 </div>
 
@@ -60,7 +60,7 @@
                     <img src="../../../../public/assets/scaico.png" alt="" class="h-fit my-auto">
                     <div class="h-fit my-auto">
                         <p class="text-[14px] md:text-[16px] text-[#3A3A3A] font-bold">Scalability and Flexibility</p>
-                        <p class="text-[10px] md:text-[12px] text-[#3A3A3A] lg:w-[550px] leading-4 mt-1">Delwathon provides a diverse portfolio of comprehensive software solutions tailored to specific industries. Whether it's Eduthon for schools or Resthon for hotel management, Delwathon's solutions are designed to address the unique challenges and requirements of each sector.</p>
+                        <p class="text-[10px] md:text-[12px] text-[#3A3A3A] lg:w-[550px] leading-4 mt-1">Delwathon's solutions are designed to accommodate the needs of businesses of all sizes. Whether it's a small retail shop or a large-scale enterprise, Our software solutions offer scalability and flexibility to adapt and grow along with the business.</p>
                     </div>
                 </div>
 
@@ -76,20 +76,20 @@
                     <img src="../../../../public/assets/affordico.png" alt="" class="h-fit my-auto">
                     <div class="h-fit my-auto">
                         <p class="text-[14px] md:text-[16px] text-[#3A3A3A] font-bold">Affordabilty</p>
-                        <p class="text-[10px] md:text-[12px] text-[#3A3A3A] lg:w-[550px] leading-4 mt-1">Delwathon provides a diverse portfolio of comprehensive software solutions tailored to specific industries. Whether it's Eduthon for schools or Resthon for hotel management, Delwathon's solutions are designed to address the unique challenges and requirements of each sector.</p>
+                        <p class="text-[10px] md:text-[12px] text-[#3A3A3A] lg:w-[550px] leading-4 mt-1">Delwathon understands that cost-effectiveness is essential for businesses. Our software solutions are priced competitively, offering excellent value for the features and benefits they provide. Delwathon aims to make advanced technology accessible and affordable for businesses of all budgets.</p>
                     </div>
                 </div>
             </div>
-            <div class="flex place-content-center lg:place-content-start">
-                <img src="../../../../public/assets/lpimg2.png" alt="" class="h-fit w-fit">
+            <div class="flex place-content-center lg:place-content-start h-fit my-auto">
+                <img src="../../../../public/assets/lpimg2.png" alt="" class="h-[450px] md:h-[600px] lg:h-[650px] w-fit">
             </div>
         </div>
 
         <h4 class="text-[#3A3A3A] text-[20px] md:text-[30px] font-bold mb-4 mt-24 text-center">EXPLORE SOME OF OUR PREVIOUS PROJECTS</h4>
-        <div class="mx-4 md:mx-8 lg:mx-24 grid grid-cols-1 lg:grid-cols-2 mt-12 gap-8 lg:gap-24">
+        <div class="px-4 md:px-8 lg:px-24 py-12 grid grid-cols-1 lg:grid-cols-2 mt-12 gap-8 lg:gap-24">
             
-            <div class="flex place-content-center lg:place-content-start">
-                <img src="../../../../public/assets/lpimg3.png" alt="" class="h-fit w-fit">
+            <div class="flex place-content-center lg:place-content-start h-fit my-auto">
+                <img src="../../../../public/assets/lpimg3.png" alt="" class="h-[450px] md:h-[600px] lg:h-[650px] w-fit">
             </div>
             <div class="h-fit my-auto">
                 <div>
@@ -104,7 +104,7 @@
             </div>
         </div>
 
-        <div class="mx-4 md:mx-8 lg:mx-24 grid grid-cols-1 lg:grid-cols-2 mt-24 gap-8 lg:gap-24">
+        <div class="px-4 md:px-8 lg:px-24 py-12 grid grid-cols-1 lg:grid-cols-2 mt-24 gap-8 lg:gap-24">
             <div class="h-fit my-auto">
                 <div>
                     <button class="w-fit text-white font-semibold text-[18px] bg-[#003399] py-2 px-8 rounded-[30px] h-fit">RESTHON</button>
@@ -115,13 +115,13 @@
                     <button class="w-fit text-white font-semibold text-[15px] bg-[#00A859] py-1.5 px-6 rounded-[30px] h-fit">Read More</button>
                 </div>
             </div>
-            <div class="flex place-content-center lg:place-content-start">
-                <img src="../../../../public/assets/lpimg4.png" alt="" class="h-fit w-fit">
+            <div class="flex place-content-center lg:place-content-start h-fit my-auto">
+                <img src="../../../../public/assets/lpimg4.png" alt="" class="h-[450px] md:h-[600px] lg:h-[650px] w-fit">
             </div>
             
         </div>
 
-        <div class="bg-[#003399] w-full flex justify-between gap-6 lg:gap-24 px-4 md:px-8 lg:px-24 py-12 mt-8">
+        <div class="bg-[#003399] w-full flex justify-between gap-6 lg:gap-24 px-4 md:px-8 lg:px-24 py-16 mt-8">
             <div class="w-fit hidden md:block">
                 <img src="../../../../public/assets/minimacbook.png" alt="">
             </div>
@@ -332,7 +332,7 @@
         </div>
 
         <!-- slider -->
-        <div class="mx-4 md:mx-8 lg:mx-24 mt-24">
+        <div class="mx-4 md:mx-8 lg:mx-24  mt-24">
             <div class="h-fit w-full">
                 <h4 class="text-[#3A3A3A] text-[18px] md:text-[32px] font-bold text-center uppercase">OUR TESTIMONIAL</h4>
                 <div class="flex place-content-center mt-1">
@@ -342,16 +342,16 @@
 
             <!-- sliders here -->
             <div class=" px-2 relative">
-                <div class=" cursor-pointer h-fit w-fit absolute left-0 top-56 z-40" @click="scrollLeft">
+                <div class=" cursor-pointer h-fit w-fit absolute left-0 top-56 z-30" @click="scrollLeft">
                     <i class='bx bx-chevron-left  h-fit w-fit text-[25px] p-3 rounded-full shadow-md shadow-[#003399]' :class="activescroll == 0 ? 'bg-[#00A859]' : 'bg-[#E5E7EB]'  "></i>
                 </div>
                 <!-- 00A859 -->
-                <div class=" cursor-pointer h-fit w-fit absolute right-0 top-56 z-40" @click="scrollRight">
+                <div class=" cursor-pointer h-fit w-fit absolute right-0 top-56 z-30" @click="scrollRight">
                     <i class='bx bxs-chevron-right  h-fit w-fit text-[25px] p-3 rounded-full shadow-md shadow-[#003399]' :class="activescroll == 1 ? 'bg-[#00A859]' : 'bg-[#E5E7EB]'  "></i>
                 </div>
-                <div class="mt-12 z-10  flex gap-2 overflow-x-auto custom-scrollbar relative" ref="scrollContainer">
+                <div class="mt-12 z-10  flex gap-3 overflow-x-auto custom-scrollbar relative" ref="scrollContainer">
                     
-                    <div class=" flex-shrink-0 w-[300px] md:w-[750px] h-fit px-6 py-4 md:py-8">
+                    <div class=" flex-shrink-0 w-[300px] md:w-[700px] lg:w-[750px] h-fit px-6 py-4 md:py-8">
                         <div class="flex place-content-center">
                             <img src="../../../../public/assets/slideimg1.png" alt="">
                         </div>
@@ -381,7 +381,7 @@
                             </p>
                     </div>
 
-                    <div class=" flex-shrink-0  w-[300px] md:w-[750px] h-fit px-6 py-4 md:py-8">
+                    <div class=" flex-shrink-0  w-[300px] md:w-[700px] lg:w-[750px] h-fit px-6 py-4 md:py-8">
                         <div class="flex place-content-center">
                             <img src="../../../../public/assets/slideimg1.png" alt="">
                         </div>
@@ -411,7 +411,7 @@
                             </p>
                     </div>
 
-                    <div class=" flex-shrink-0  w-[300px] md:w-[750px] h-fit px-6 py-4 md:py-8">
+                    <div class=" flex-shrink-0  w-[300px] md:w-[700px] lg:w-[750px] h-fit px-6 py-4 md:py-8">
                         <div class="flex place-content-center">
                             <img src="../../../../public/assets/slideimg1.png" alt="">
                         </div>
@@ -441,7 +441,7 @@
                             </p>
                     </div>
 
-                    <div class=" flex-shrink-0  w-[300px] md:w-[750px] h-fit px-6 py-4 md:py-8 ">
+                    <div class=" flex-shrink-0  w-[300px] md:w-[700px] lg:w-[750px] h-fit px-6 py-4 md:py-8 ">
                         <div class="flex place-content-center">
                             <img src="../../../../public/assets/slideimg1.png" alt="">
                         </div>
@@ -482,15 +482,53 @@
     const scrollContainer = ref(null);
     const activescroll = ref(1)
 
+
+
+    const scrollLeft = () => {
+        if (scrollContainer.value) {
+            let scrollAmount = 755; // Default scroll amount
+            // Adjust scroll amount based on screen size
+            if (window.innerWidth < 640) { // Small screen
+                scrollAmount = 280; // Adjust for small screens
+            } else if (window.innerWidth < 1024) { // Medium screen
+                scrollAmount = 700; // Adjust for medium screens
+            }
+            scrollContainer.value.scrollLeft -= scrollAmount;
+        }
+    };
+
+    const scrollRight = () => {
+        if (scrollContainer.value) {
+            let scrollAmount = 755; // Default scroll amount
+            // Adjust scroll amount based on screen size
+            if (window.innerWidth < 640) { // Small screen
+                scrollAmount = 280; // Adjust for small screens
+            } else if (window.innerWidth < 1024) { // Medium screen
+                scrollAmount = 700; // Adjust for medium screens
+            }
+            scrollContainer.value.scrollLeft += scrollAmount;
+        }
+    };
+
+
+
+
+
+
+
+
+
+
+
     // const scrollLeft = () => {
     //     if (scrollContainer.value) {
-    //         scrollContainer.value.scrollLeft -= 300; // Adjust the scroll amount as needed
+    //         scrollContainer.value.scrollLeft -= 755; // Adjust the scroll amount as needed
     //     }
     // };
 
     // const scrollRight = () => {
     //     if (scrollContainer.value) {
-    //         scrollContainer.value.scrollLeft += 300; // Adjust the scroll amount as needed
+    //         scrollContainer.value.scrollLeft += 755; // Adjust the scroll amount as needed
     //     }
     // };
 
@@ -502,45 +540,45 @@
 
 
 
-    const scrollLeft = () => {
-        activescroll.value = 0
-        if (scrollContainer.value) {
-            smoothScroll(scrollContainer.value, 'left', -330, 10); // Adjust the scroll amount and duration as needed
-        }
-    };
+    // const scrollLeft = () => {
+    //     activescroll.value = 0
+    //     if (scrollContainer.value) {
+    //         smoothScroll(scrollContainer.value, 'left', -330, 10); // Adjust the scroll amount and duration as needed
+    //     }
+    // };
 
-    // Function to smoothly scroll right
-    const scrollRight = () => {
-        activescroll.value = 1
-        if (scrollContainer.value) {
-            smoothScroll(scrollContainer.value, 'left', 330, 10); // Adjust the scroll amount and duration as needed
-        }
-    };
+    // // Function to smoothly scroll right
+    // const scrollRight = () => {
+    //     activescroll.value = 1
+    //     if (scrollContainer.value) {
+    //         smoothScroll(scrollContainer.value, 'left', 330, 10); // Adjust the scroll amount and duration as needed
+    //     }
+    // };
 
-    // Function for smooth scrolling animation
-    const smoothScroll = (element, direction, distance, duration) => {
-    const start = element.scrollLeft;
-    const startTime = performance.now();
+    // // Function for smooth scrolling animatio
+    // const smoothScroll = (element, direction, distance, duration) => {
+    // const start = element.scrollLeft;
+    // const startTime = performance.now();
 
-    const animateScroll = (timestamp) => {
-        const elapsedTime = timestamp - startTime;
-        const progress = Math.min(elapsedTime / duration, 1);
-        const easeInOutCubic = (t) => t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1;
-        const delta = easeInOutCubic(progress) * distance;
+    // const animateScroll = (timestamp) => {
+    //     const elapsedTime = timestamp - startTime;
+    //     const progress = Math.min(elapsedTime / duration, 1);
+    //     const easeInOutCubic = (t) => t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1;
+    //     const delta = easeInOutCubic(progress) * distance;
 
-        if (direction === 'left') {
-        element.scrollLeft = start + delta;
-        } else {
-        element.scrollLeft = start - delta;
-        }
+    //     if (direction === 'left') {
+    //     element.scrollLeft = start + delta;
+    //     } else {
+    //     element.scrollLeft = start - delta;
+    //     }
 
-        if (elapsedTime < duration) {
-        requestAnimationFrame(animateScroll);
-        }
-    };
+    //     if (elapsedTime < duration) {
+    //     requestAnimationFrame(animateScroll);
+    //     }
+    // };
 
-    requestAnimationFrame(animateScroll);
-    };
+    // requestAnimationFrame(animateScroll);
+    // };
 
 </script>
 <style scoped>

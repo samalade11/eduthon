@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="relative">
-            <img src="../../../../public/assets/conimg2.png" alt="">
+            <img src="../../../../public/assets/conimg2.png" alt="" class="lg:h-[750px] w-full">
             <p class="text-white text-[26px] md:text-[32px] lg:text-[40px] font-bold w-full text-center  absolute top-12 md:top-28 lg:top-60">CONTACT US</p>
 
             <div class="flex place-content-center">
@@ -85,8 +85,8 @@
             </div>
         </div>
 
-        <div class="flex place-content-center my-8 md:my-16">
-            <img src="../../../../public/assets/contactmap.png" alt="" class="h-fit w-fit">
+        <div class="flex place-content-center my-8 md:my-16 mx-4 md:mx-8 lg:mx-28">
+            <img src="../../../../public/assets/contactmap.png" alt="" class="w-full h-[200px] md:h-[400px] lg:h-[600px]">
         </div>
         
     </div>

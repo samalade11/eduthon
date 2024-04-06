@@ -1,8 +1,8 @@
 <template>
     <div >
-       <div class="relative">
-            <img src="../../../../public/assets/ourbgimg1.png" alt="" class="h-fit">
-            <img src="../../../../public/assets/ourgradient1.png" alt="" class="absolute top-0">
+       <div class="relative lg:h-[750px] overflow-hidden">
+            <img src="../../../../public/assets/ourbgimg1.png" alt="" class="lg:h-[750px] w-full">
+            <img src="../../../../public/assets/ourgradient1.png" alt="" class="absolute w-full top-0 ">
             <div class="bg-[#000000] bg-opacity-60 absolute top-0 w-full h-full">
                 <div class=" w-fit mx-auto mt-12 md:mt-32 lg:mt-52" >
                     <h4 class="text-center text-white text-[16px] md:text-[32px] lg:text-[38px] uppercase font-bold text-opacity-80">eDUTHON - LEARNING MANAGEMENT 
@@ -41,11 +41,11 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-12 mt-12 gap-8">
-                <div class="bg-white w-fit h-fit pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
                     <div class="">
                         <img src="../../../../public/assets/ourkeyico1.png" alt="">
                         <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">School Subscription (SAAS)</h4>
-                        <p class="text-[#3A3A3A] text-[14px] md:text-[16px] ">These subscriptions offer cloud-based
+                        <p class="text-[#3A3A3A] text-[12px] md:text-[14px]  ">These subscriptions offer cloud-based
                             platforms for managing school enrollment,
                             attendance, grading, and curriculum, as
                             well as providing access to virtual 
@@ -54,36 +54,190 @@
                     </div>
                 </div>
 
-                <div class="bg-white w-fit h-fit pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
                     <div class="">
-                        <img src="../../../../public/assets/ourkeyico1.png" alt="">
-                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">School Subscription (SAAS)</h4>
-                        <p class="text-[#3A3A3A] text-[14px] md:text-[16px] ">These subscriptions offer cloud-based
-                            platforms for managing school enrollment,
-                            attendance, grading, and curriculum, as
-                            well as providing access to virtual 
-                            classes, interactive textbooks, and 
-                            productivity tools.</p>
+                        <img src="../../../../public/assets/customico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Custom Domain</h4>
+                        <p class="text-[#3A3A3A] text-[12px] md:text-[14px] ">A unique and professional custom domain will be 
+                            provided using their own domain name. A 
+                            custom domain  allows the school to have a web
+                             address in other to establish a distinct online 
+                            presence that reflects its values and helps to 
+                            strengthen digital communication like
+                            “www.schoolname.com”.</p>
                     </div>
                 </div>
 
 
-                <div class="bg-white w-fit h-fit pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
                     <div class="">
-                        <img src="../../../../public/assets/ourkeyico1.png" alt="">
-                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">School Subscription (SAAS)</h4>
-                        <p class="text-[#3A3A3A] text-[14px] md:text-[16px] ">These subscriptions offer cloud-based
-                            platforms for managing school enrollment,
-                            attendance, grading, and curriculum, as
-                            well as providing access to virtual 
-                            classes, interactive textbooks, and 
-                            productivity tools.</p>
+                        <img src="../../../../public/assets/attico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">QR Attendance</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">QR code system is a convenient check-in process 
+                            for both staffs and students. Simply scan the QR
+                             code displayed at the entrance of your smartphone, 
+                            and instantly record your attendance. This innovative 
+                            solution enhances efficiency, reduces paperwork, and 
+                            ensures accurate attendance tracking.</p>
                     </div>
                 </div>
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/manaico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Powerful Fees Management</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">Our intuitive interface allows administrators to  easily track, manage, and collect fees from students and parents in a very flexible way. With  customizable fee structures and automated reminders, you can ensure  timely payments and streamline the entire fee collection process. </p>
+                    </div>
+                </div>
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/examico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Online Exam (Paid/Free)</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">Our online exam platform allows students to conveniently take exams from their homes. Our system offers both paid and free options to suit the needs of your school.Whether you choose our paid or free online exam service, you can trust our platform to deliver a user-friendly experience that enhances the efficiency and effectiveness of your school's assessment process. </p>
+                    </div>
+                </div>
+
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/accico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Accept Payments</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">Our system accepts various transactions such as tuition fees, event registration, etc for a school website. By integrating a secure payment gateways enhances efficiency, reduces administartive burden and provides a secure way to manage financial tran-sactions to the school.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/advico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Advance Website</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">Our intuitive navigation to easily access essential information such as  academic calendars, upcoming events, and school news. </p>
+                    </div>
+                </div>
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/mulico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Multiple-Type of Exam System</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">For a seamless assessment on your school website, we designed the website to  streamline the examination process, this system allows educators to create, administer, and grade various types of exams efficiently. </p>
+                    </div>
+                </div>
+
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/payico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Online Payment Gateway</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">Integrating an online payment gateway into a school website streamlines  fee payments, donations, and event registrations, offering convenience  and security for parents and stakeholders. The payment gateway ensures encrypted transactions, safeguarding sensitive financial information.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/officeico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Office Accounting</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">This process involves tracking and recording all financial transactions, including expenses, income, and budget allocations. we ensure transparency, accuracy, and compliance with financial regulations.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white w-full h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/liveico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Online Live Class</h4>
+                        <p class="text-[#3A3A3A] font-bold text-center  flex place-content-center text-[16px] md:text-[18px] ">
+                            <span class="h-fit my-auto">N/A</span>
+                            <span class="h-[100px] bg-red-500"></span>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/easyico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Easy to Install</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">we ensure transparency, accuracy, and compliance with financial regulations.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/modico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Module Enable/ Disable</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">This feature can allow administrators to selectively enable or disable  modules such as event calendars, news feeds, student forums, and class  schedules.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/onlico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Online Admission</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">Our user-friendly website streamlines the admission process, allowing  you to submit applications, upload documents, and track your progress  effortlessly.</p>
+                    </div>
+                </div>
+
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/customico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Custom Field</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">These fields enables students, parents, and  faculty, ensuring that relevant information is easily accessible and  efficiently managed.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/proico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Progress Report Card</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">The results of multiple terms  exam can be combined to make a progress card (with cumulative average, class Average, subject position).</p>
+                    </div>
+                </div>
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/roleico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Role Permission</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">These permissions dictate what actions users with different roles can  perform within the website. For instance, administrators may have full  access to all features, including user management and content creation,  while teachers may have permissions limited to posting assignments and  grading students.</p>
+                    </div>
+                </div>
+
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/schico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Schedule Email/SMS</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">You can send bulk sms or email to users and you can set the time and date schedule according to your needs.</p>
+                    </div>
+                </div>
+
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/ourkeyico1.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Inventory Module </h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">The inventory module is a powerful tool that offers a streamlined  solution for managing and tracking various resources within the school  premises. From textbooks and teaching materials to sports equipment and  technology devices.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white w-fit h-[320px] md:h-[370px] pl-12 pr-12 py-8 rounded-[15px] shadow-lg shadow-gray-400">
+                    <div class="">
+                        <img src="../../../../public/assets/cardico.png" alt="">
+                        <h4 class="text-[#3A3A3A] text-[20px] md:text-[24px] font-semibold my-6">Card Management</h4>
+                        <p class="text-[#3A3A3A] text-[14px] md:text-[14px] ">This template provides a centralized platform to manage student ID cards, library cards, and meal cards.</p>
+                    </div>
+                </div>
+
+
+                
             </div>
 
             
        </div>
+
+
+
+
+
 
         <div class="mx-4 md:mx-8 lg:mx-24 mt-24 mb-12 ">
             <h4 class="text-[#3A3A3A] text-[20px] md:text-[32px] font-bold text-center mb-8">HISTORY</h4>
